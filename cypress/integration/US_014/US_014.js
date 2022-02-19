@@ -15,6 +15,7 @@ Given('user is on his accounts', () => {
 And('User clicks on All tags', () => {
     cy.wait(2000);
     cy.get('#nav-hamburger-menu').click();
+<<<<<<< HEAD
     cy.get('#hmenu-content > .hmenu-visible')
 
 
@@ -22,6 +23,8 @@ And('User clicks on All tags', () => {
 
 
 
+=======
+>>>>>>> main
     //     let text = cy.get('.hmenu-visible > :nth-child(20) > .hmenu-item>div').invoke('text');
 
     //     const allLinkText = ["trending",
@@ -41,7 +44,11 @@ And('User clicks on All tags', () => {
     //         "Books",
     //         "Films, TV, Music & Games",
     //         "Electronics & Computers",
+<<<<<<< HEAD
     //         "Home, Garden, Pets & DIY, ",
+=======
+    //         "Home, Garden, Pets & DIY",
+>>>>>>> main
     //         "see allsee less", "",
     //         "programs & features",
     //         "Gift Cards & Top Up",
@@ -60,7 +67,11 @@ And('User clicks on All tags', () => {
     //     cy.get('#hmenu-content > .hmenu-visible>li').each((item, index, list) => {
     //         expect(list).to.have.length(34);
     //         cy.wrap(item).should('contain.text', allLinkText[index]);
+<<<<<<< HEAD
     //        //expect(Cypress.$(item).text()).to.eq(allLinkText[index]);
+=======
+    //         //expect(Cypress.$(item).text()).to.eq(allLinkText[index]);
+>>>>>>> main
 
     //         console.log(list);
     //     })
