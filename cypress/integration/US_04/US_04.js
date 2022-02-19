@@ -62,7 +62,7 @@ And('User clicks on All tag', () => {
         // expect(Cypress.$(item).text()).to.contain(allLinkText[index]);
         // expect(allLinkText[index]).to.equal(Cypress.$(item).text());
 
-        cy.get('.hmenu-visible > :nth-child(20) > .hmenu-item') // Smart Home
+        cy.get('.hmenu-visible > :nth-child(20) > .hmenu-item'). // Smart Home
 
 
 
